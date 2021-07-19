@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/*Section navbar*/
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+    font-family:'Noto Sans JP', sans-serif;
+    padding: 0px;
+}
+
+.section-card {
+    margin: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    text-align: center;
+}
+
+.section-pago {
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 0 0 10px 0 black;
+    padding: 2px;
+    margin: 20px;
+    width: 50%;
+    height: 30%;
+    text-align: center;
+}
+
+.section-condicion {
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 0 0 10px 0 black;
+    padding: 2px;
+    margin: 20px;
+    width: 50%;
+    height: 30%;
+    text-align: center;
+}
+
+a:hover {
+    color: red;
+}
+
+.section-form button {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.section-link {
+    position: absolute;
+    top: 100%;
+    left: 47%;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media  screen and (max-width: 2000px) {
+    .section-link {
+        top: 182%;
+    }
+    .section-condicion {
+        width: 55%;
+    }
+    .section-pago {
+        width: 55%;
+    }
+}
